@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    background-color: white;
+    font-family: "Open Sans";
+}
+
+#navbar{
+    background: #707070;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+    font-size: 22px;
+    position: fixed;
+    top: 0px;
+} 
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#welcome-section{
+    text-align: center;
+    background-color: black;
+    font-size: 35px;
+    height: 550px;
+}
+
+#welcome-section h1{
+    color: white;
+    padding-top: 190px;
+}
+
+#welcome-section p{
+    margin-top: -40px;
+    color: #707070;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#projects{
+    margin-top: -33px;
+    text-align: center;
+    height: 900px;
+    background-color: rgb(57, 75, 126);
+    color: white;
+}
+
+#projects h2{
+    padding-top: 90px;
+    font-size: 38px;
+   border-bottom: 1px solid white;
+}
+
+#projects button{
+    background-color: #5a5959;
+    color: white;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#projects p{
+    text-align: center;
+    font-weight: 500;
+}
+
+#projects .desc-project-1{
+    background: #707070;
+    width: 360px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: -10px;
+    padding-top: 2px;
+}
+
+#projects a{
+    text-decoration: none;
+}
+
+#projects a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#projects button:hover{
+    background-color: red;
+}
+
+#projects i:hover{
+    transition: transform 905ms;
+    transform: translateX(7px);
+}
+
+
+
+#contact{
+    background-color:#5a5959;
+    color: white;
+    text-align: center;
+    height: 600px;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+    border: none;
+}
+
+#contact ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contact li{
+    list-style: none;
+    font-size: 25px;
+}
+
+#contact li:hover{
+    transition: transform 125ms;
+    transform: translateY(10px);
+}
+
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer{
+    background-color:#5a5959;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 145px;
+    font-size: 25px;
+    border-top: 3px solid #707070;
+}
